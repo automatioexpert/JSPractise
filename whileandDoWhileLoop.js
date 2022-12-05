@@ -13,7 +13,5 @@ console.log("Executing do block")
 i++;
 }
 
-while(i<=10){
-    console.log('Executing while block')
-    //i++;
-}
+while(i<=10);
+console.log(i)
